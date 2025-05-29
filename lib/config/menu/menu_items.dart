@@ -1,10 +1,13 @@
 
 
+import 'package:flutter/material.dart';
+
+
 class MenuItems {
 
   final String title;
   final String subtitle;
-  final String icon;
+  final IconData icon;
   final String link;
 
 
@@ -23,19 +26,19 @@ const appMenuItems = <MenuItems>[
   MenuItems(
     title: 'Home',
     subtitle: 'Go to home page',
-    icon: 'assets/icons/home.svg',
+    icon: Icons.smart_button_outlined,
     link: '/home',
   ),
   MenuItems(
     title: 'Settings',
     subtitle: 'Configure your preferences',
-    icon: 'assets/icons/settings.svg',
+    icon: Icons.settings,
     link: '/settings',
   ),
   MenuItems(
     title: 'Profile',
     subtitle: 'View and edit your profile',
-    icon: 'assets/icons/profile.svg',
+    icon: Icons.credit_card,
     link: '/profile',
   ),
 ];
