@@ -8,14 +8,17 @@ final router = GoRouter(
   routes: [
     GoRoute(
       path: '/',
+      name: HomeScreen.name,
       builder: (context, state) => HomeScreen(),
     ),
     GoRoute(
       path: '/settings',
+      name: ButtonScreen.name,
       builder: (context, state) => ButtonScreen(),
     ),
     GoRoute(
       path: '/profile',
+      name: CardScreen.name,
       builder: (context, state) => CardScreen(),
     ),
   ],
