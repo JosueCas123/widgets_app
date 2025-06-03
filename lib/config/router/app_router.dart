@@ -12,14 +12,19 @@ final router = GoRouter(
       builder: (context, state) => HomeScreen(),
     ),
     GoRoute(
-      path: '/settings',
+      path: '/buttons',
       name: ButtonScreen.name,
       builder: (context, state) => ButtonScreen(),
     ),
     GoRoute(
-      path: '/profile',
+      path: '/cards',
       name: CardScreen.name,
       builder: (context, state) => CardScreen(),
     ),
+    GoRoute(
+      path: '/progress',
+      name: ProgressScreen.name,
+      builder: (context, state) => ProgressScreen(),
+    )
   ],
 );

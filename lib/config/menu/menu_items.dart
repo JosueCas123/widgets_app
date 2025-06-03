@@ -24,21 +24,21 @@ class MenuItems {
 
 const appMenuItems = <MenuItems>[
   MenuItems(
-    title: 'Home',
+    title: 'Botoes',
     subtitle: 'Go to home page',
     icon: Icons.smart_button_outlined,
-    link: '/home',
+    link: '/buttons',
   ),
   MenuItems(
-    title: 'Settings',
+    title: 'Tarjertas',
     subtitle: 'Configure your preferences',
-    icon: Icons.settings,
-    link: '/settings',
+    icon: Icons.credit_card,
+    link: '/cards',
   ),
   MenuItems(
-    title: 'Profile',
+    title: 'Progressindicators',
     subtitle: 'View and edit your profile',
-    icon: Icons.credit_card,
-    link: '/profile',
+    icon: Icons.refresh_rounded,
+    link: '/progress',
   ),
 ];
