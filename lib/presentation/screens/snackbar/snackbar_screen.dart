@@ -26,7 +26,7 @@ class SnackbarScreen extends StatelessWidget {
           content: const Text('This is a dialog message. lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
           actions: [
             TextButton(onPressed: ()=>context.pop(),child: const Text('Close')),
-            FilledButton(onPressed: ()=> context.pop(), child: const Text('Accept')),
+            FilledButton(onPressed: ()=> context.pop(), child: const Text('Accept'))
           ],
         );
       },

@@ -30,6 +30,11 @@ final router = GoRouter(
       path: '/snackbars',
       name: SnackbarScreen.name,
       builder: (context, state) => SnackbarScreen(),
+    ),
+    GoRoute(
+      path: '/animated_container',
+      name: AnimatedScreen.name,
+      builder: (context, state) => AnimatedScreen(),
     )
 
   ],
