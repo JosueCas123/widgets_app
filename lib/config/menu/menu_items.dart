@@ -71,4 +71,16 @@ const appMenuItems = <MenuItems>[
     icon: Icons.list_alt_rounded,
     link: '/infinite_scroll',
   ),
+  MenuItems(
+    title: 'Counter',
+    subtitle: 'Counter example',
+    icon: Icons.add_circle_outline,
+    link: '/counter',
+  ),
+  MenuItems(
+    title: 'Cambiar Tema',
+    subtitle: 'Cambiar el tema de la aplicacion',
+    icon: Icons.color_lens_outlined,
+    link: '/themeChange',
+  ),
 ];

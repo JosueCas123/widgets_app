@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:widgets_app/presentation/screem.dart';
 
 
+
 final router = GoRouter(
   routes: [
     GoRoute(
@@ -50,7 +51,18 @@ final router = GoRouter(
       path: '/infinite_scroll',
       name: InfiniteScrollScreen.name,
       builder: (context, state) => InfiniteScrollScreen(),
-    )
+    ),
+    GoRoute(
+      path: '/counter',
+      name: CounterScreen.name,
+      builder: (context, state) => CounterScreen(),
+      ),
+    GoRoute(
+      path:'/themeChange',
+      name: ThemeChamgerScreen().name,
+      builder: (context, state) => const ThemeChamgerScreen(),
+    ),
+
 
   ],
 );
